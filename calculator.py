@@ -48,7 +48,7 @@ def calculate_carbon_footprint():
             st.write(f"To offset your carbon footprint, you would need to plant {trees_needed:.2f} trees per month.")
 
             # Link to recommendations app with updated IP address
-            st.write("\nFor personalized recommendations to reduce your carbon footprint, visit the [Recommendations App](http://192.168.29.241:8502).")
+            st.write("\nFor personalized recommendations to reduce your carbon footprint, visit the [Recommendations App](https://carbon-footprint-recommendations.streamlit.app/).")
 
     except ValueError:
         st.error("Invalid input. Please enter numeric values where expected.")
